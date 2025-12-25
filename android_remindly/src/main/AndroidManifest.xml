@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <receiver
+            android:name=".ReminderReceiver"
+            android:enabled="true"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+
+        <service
+            android:name=".ReminderNotificationService"
+            android:enabled="true"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+    </application>
+
+</manifest>
